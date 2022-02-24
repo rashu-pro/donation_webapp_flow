@@ -1,0 +1,30 @@
+.thankyou-wrapper{
+  padding: 40px;
+  text-align: center;
+  min-height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+  display: none;
+  &-inner{
+    max-width: 680px;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    padding: 50px 30px;
+    /* border: 1px solid #d8d8d8; */
+    box-shadow: 0 5px 15px #00000014;
+    .check-icon-wrapper{
+      padding-bottom:22px;
+    }
+    .title-main{
+      color: #4caf50;
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    p{
+      font-size:20px;
+      padding-top:15px;
+      margin:0;
+    }
+  }
+}
